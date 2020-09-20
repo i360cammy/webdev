@@ -1,0 +1,216 @@
+/* General CSS */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240,240,240);
+    font-family: 'Racing Sans One', cursive;
+}
+
+.logo {
+    width: 70px
+}
+
+.navbar {
+    background-color: #d3d3d3;
+    border-bottom: 1px solid black
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+
+.padding {
+    margin-top: 20px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #d4d4d4;
+}
+
+.contact {
+    font-size: 24px;
+}
+
+.socialIcons {
+    padding: 20px;
+}
+
+.email, .report {
+    color: #d4d4d4
+}
+
+.line {
+    border: 1px solid white;
+}
+
+.inputBox {
+    width: 75%;
+    text-align: center;
+}
+
+.emailList {
+    list-style-type: none;
+}
+
+
+/* index.html CSS */
+
+.main-heading {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em
+}
+
+.main-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.text-div {
+    background-color: #d8d8d8;
+    border: 1px solid black;
+}
+
+.img-div {
+    background-color: #a1a1a1;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.btn-primary {
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img-fluid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 080%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid lightgrey;
+    border-style: outset;
+}
+
+.text-div {
+    padding-bottom: 20px;
+}
+
+.car-img {
+    width: 104%;
+    height: 10%;
+}
+
+/* cars.html CSS */
+
+.carousel-caption {
+    text-align: left
+}
+
+.carousel-caption h4 {
+    padding-bottom: 10px
+}
+
+/* tracks.html CSS */
+
+.card {
+    padding: 0.1em;
+    background-color: lightgray;
+    border: 1px solid black;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 2em;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.card-deck {
+    padding: 1em
+}
+
+.card-img-top {
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+/* Hall of Fame CSS */
+
+.team-card {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.card-text-HOF {
+    font-size: 1.4em;
+}
+
+.card-title-HOF {
+    font-size: 1.8em
+}
+
+
+/* CSS styling for mobile viewing. Comes into effect when screen width is less than 768px */
+@media (max-width: 768px) {
+
+    .main-heading {
+        padding-top: 0.5em;
+    }
+    
+    .carousel-caption {
+        font-size: 70%
+    }
+    
+    .card-deck {
+        display: grid;
+        margin-bottom: -2em
+    }
+    .card {
+        padding: 0.5em;
+        margin-top: 1em;
+    }
+    
+    .card-img-top:hover {
+        transform: scale(1.05);
+    }
+    
+    .card {
+        font-size: 1.4em;
+    }
+    
+    .card-title {
+        font-size: 1.4em;
+    }
+    
+    .card-text-HOF {
+        font-size: 0.9em;
+    }
+    
+    .card-title-HOF {
+        font-size: 1.2em
+    }
+ 
+}
